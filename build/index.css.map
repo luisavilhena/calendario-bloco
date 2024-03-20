@@ -1,0 +1,1 @@
+{"version":3,"file":"index.css","mappings":";;;AAAA;EACC;EACA;EACA;AACD,C","sources":["webpack://bloco-calendario/./src/editor.scss"],"sourcesContent":[".time {\n\tbackground-color:beige;\n\tpadding: 10px;\n\tborder: 1px solid black;\n}"],"names":[],"sourceRoot":""}

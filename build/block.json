@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "bloco-calendario-1/bloco-calendario",
+  "version": "0.1.0",
+  "title": "Calendario",
+  "category": "theme",
+  "icon": "smiley",
+  "description": "Bloco com img, texto e link",
+  "example": {},
+  "supports": {
+    "html": false,
+    "className": false
+  },
+  "attributes": {
+    "date": {
+      "type": "string",
+      "default": "Data de hoje"
+    }
+  },
+  "textdomain": "bloco-calendario",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php",
+  "viewScript": "file:./view.js"
+}
